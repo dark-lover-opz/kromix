@@ -1,0 +1,27 @@
+{
+  "name": "kromix",
+  "version": "0.1.0",
+  "description": "Levanter-style WhatsApp bot scaffold (plugin-based) using Baileys.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "plugin"
+  ],
+  "author": "dark-lover-opz",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.0.0",
+    "chalk": "^5.0.0"
+  }
+}
